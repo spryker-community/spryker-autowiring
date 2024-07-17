@@ -1,11 +1,12 @@
 repo_name: spryker-community/spryker-autowiring
 report_id: 6c3e4a9a763c604c77839950d5480936
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:23:07+00:00'
-requested_by: RodinVasily
+timestamp: '2024-01-05T09:11:17+00:00'
+requested_by: gxjansen
 provider: github
 branch: main
-detected_tools_count: 2
+detected_tools_count: 4
 tools:
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/spryker-community/spryker-autowiring
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,4 +27,30 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/spryker-community/spryker-autowiring
   detection_source: Repo Metadata
+- name: php-di/php-di
+  description: The dependency injection container for humans
+  package_url: https://packagist.org/php-di/php-di
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-autowiring/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Vasily Rodin
+  last_updated_on: 2023-07-08 15:44:37.000000000 Z
+- name: spryker/kernel
+  description: Kernel module
+  package_url: https://packagist.org/spryker/kernel
+  version: '3.73'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-autowiring/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Vasily Rodin
+  last_updated_on: 2023-07-09 10:12:13.000000000 Z
